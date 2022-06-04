@@ -41,9 +41,28 @@ pods_test --num-gpus 4 MODEL.WEIGHTS /path/to/your/model.pth
 
 ## Results
 
-| Model | Multi-scale training | Multi-scale testing | Testing time / im | AP (minival) | Link |
-|:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|:---:|
-| [AutoAssign_Res50_FPN_1x](https://github.com/poodarchu/AutoAssign/blob/master/auto_assign.res50.fpn.coco.800size.1x/config.py) | No | No | 53ms | 40.5 | [download](https://drive.google.com/file/d/11mV53SJUIpCdWj-Wbfi_fdmDz96ekb-Z/view?usp=sharing)
+| Model | Multi-scale training | Multi-scale testing | Backbone | AP (minival) |
+|:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|
+| Ours | No | No | Res50 | 41.1 |
+|:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|
+| Ours† | No | No | Res50 | 43.5 |
+|:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|
+| Ours | yes | No | Res101 | 45.3 |
+|:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|
+| Ours† | yes | No | Res101 | 46.8 |
+|:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|
+| Ours† w/ Wms1 | yes | No | Res101 | 46.9 |
+|:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|
+| Ours† w/ Wms2 | yes | No | Res101 | 47.4 |
+|:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|
+| Ours | yes | No | ResXt101-64x4d | 47.2 |
+|:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|
+| Ours† | yes | No | ResXt101-64x4d | 48.0 |
+|:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|
+| Ours† w/ Wms1 | yes | No | ResXt101-64x4d | 48.5 |
+|:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|
+| Ours† w/ Wms2 | yes | No | ResXt101-64x4d | 49.3 |
+|:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|
 
 ##Acknowledgement
 This repo is developed based on cvpods and AutoAssign. Please check [cvpods](https://github.com/Megvii-BaseDetection/cvpods) and [AutoAssign](https://github.com/Megvii-BaseDetection/AutoAssign) for more details and features.
