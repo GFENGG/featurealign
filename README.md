@@ -41,7 +41,7 @@ pods_test --num-gpus 4 MODEL.WEIGHTS /path/to/your/model.pth
 
 ## Results
 
-| Model | Multi-scale training | Multi-scale testing | Backbone | AP (minival) |
+| Model | Multi-scale training | Multi-scale testing | Backbone | AP |
 |:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|
 | Ours | No | No | Res50 | 41.1 |
 | Ours† | No | No | Res50 | 43.5 |
