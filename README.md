@@ -55,7 +55,7 @@ pods_test --num-gpus 4 MODEL.WEIGHTS /path/to/your/model.pth
 | Ours† w/ Wms2 | yes | No | ResXt101-64x4d | 49.3 |
 
 
-##Acknowledgement
+## Acknowledgement
 
 This repo is developed based on cvpods and AutoAssign. Please check [cvpods](https://github.com/Megvii-BaseDetection/cvpods) and [AutoAssign](https://github.com/Megvii-BaseDetection/AutoAssign) for more details and features.
 
