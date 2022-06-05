@@ -59,6 +59,3 @@ pods_test --num-gpus 4 MODEL.WEIGHTS /path/to/your/model.pth
 
 This repo is developed based on cvpods and AutoAssign. Please check [cvpods](https://github.com/Megvii-BaseDetection/cvpods) and [AutoAssign](https://github.com/Megvii-BaseDetection/AutoAssign) for more details and features.
 
-## License
-This repo is released under the Apache 2.0 license. Please see the LICENSE file for more information.
-
