@@ -2,9 +2,9 @@
 
 # ![pipeline](./pipeline.png)
 
-This is a PyTorch implementation version of the paper Features Alignment In Anchor-Free Object Detection. The contributions include:
+This is a PyTorch implementation version of the paper Features Alignment In Anchor-Free Object Detection. In this paper, we focus on solving the feature misalignment problem for anchor-free object detection methods, and the main contributions include
 - G-RFA
-- feature ﬁlter
+- feature ﬁlter (FF)
 - multi-layer quality distributions (MDQ) and corresponding quality weighting mechanism
 
 More details can be found in the paper.
@@ -44,6 +44,7 @@ pods_test --num-gpus 4 MODEL.WEIGHTS /path/to/your/model.pth
 
 
 ## Results
+Our method consistently surpasses the other methods by changing the backbone and the multi-scale training interval. Only with the improvements on label assignment strategy (FF anf MDQ), our method can bring the detection performance from our baseline method (Autoassign) to a competitive level of 47.2\%AP on ResNeXt-101-64x4d. Combined with G-RFA, we achieve 49.3\% AP with the backbone of ResNeXt-10164x4d, surpassing other related methods.
 
 | Model | Multi-scale training | Multi-scale testing | Backbone | AP |
 |:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|
