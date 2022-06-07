@@ -2,7 +2,10 @@
 
 # ![pipeline](./pipeline.png)
 
-This is a PyTorch implementation version of the paper Features Alignment In Anchor-Free Object Detection.
+This is a PyTorch implementation version of the paper Features Alignment In Anchor-Free Object Detection. The inno
+- G-RFA
+- feature ﬁlter
+- multi-layer quality distributions (MDQ) and corresponding quality weighting mechanism
 
 ## Get Started
 
