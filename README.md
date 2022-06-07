@@ -29,7 +29,9 @@ mkdir datasets
 ln -s /path/to/your/coco/dataset datasets/coco
 ```
 
-2. run the project
+2. replace the fpn.py in the cvpods project following the giving path.
+
+3. run the project
 
 ```shell
 cd feature_align.coco
@@ -45,7 +47,6 @@ pods_test --num-gpus 4
 # test with provided weights
 pods_test --num-gpus 4 MODEL.WEIGHTS /path/to/your/model.pth
 ```
-
 
 
 ## Results
