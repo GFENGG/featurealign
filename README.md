@@ -1,11 +1,11 @@
 # Features Alignment In Anchor-Free Object Detection
 
 ## Motivation
-# ![motivation](./motivation.png)
+# ![motivation](./docs/motivation.png)
 Compared with our method, the spatial distributions of the classiﬁcation heatmap and the regression heatmap in other methods are not consistent. Although there exists a tendency of gradual contraction and convergence, the two distributions are still not effectively aligned. In addition, other methods have inevitably recognized some noisy points with inconsistent performances in classiﬁcation and regression as the foreground, which confuse the network in the training phase. In contrast, our method produces a foreground map that is more focused on good sampling points with high regression and classiﬁcation scores simultaneously.
 
 ## Pipeline
-# ![pipeline](./pipeline.png)
+# ![pipeline](./docs/pipeline.png)
 
 This is a PyTorch implementation version of the paper Features Alignment In Anchor-Free Object Detection. In this paper, we focus on solving the feature misalignment problem for anchor-free object detection methods, and the main contributions include
 - G-RFA
