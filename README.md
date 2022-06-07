@@ -2,7 +2,7 @@
 
 # ![pipeline](./pipeline.png)
 
-This is a PyTorch implementation version.
+This is a PyTorch implementation version of the paper Features Alignment In Anchor-Free Object Detection.
 
 ## Get Started
 
@@ -54,6 +54,7 @@ pods_test --num-gpus 4 MODEL.WEIGHTS /path/to/your/model.pth
 | Ours† w/ Wms1 | yes | No | ResXt101-64x4d | 48.5 |
 | Ours† w/ Wms2 | yes | No | ResXt101-64x4d | 49.3 |
 
+The results are evaluated on the COCO test-dev, which can also be found in the paper.
 
 ## Acknowledgement
 
