@@ -48,15 +48,15 @@ Our method consistently surpasses the other methods by changing the backbone and
 
 | Model | Multi-scale training | Multi-scale testing | Backbone | AP |
 |:--- |:--------------------:|:--------------------:|:-----------------:|:-------:|
-| Autoassign | No | No | Res50 | 40.4 |
+| Autoassign (baseline) | No | No | Res50 | 40.4 |
 | Ours | No | No | Res50 | 41.1 |
 | Ours† | No | No | Res50 | 43.5 |
-| Autoassign | yes | No | Res101 | 44.5 |
+| Autoassign (baseline) | yes | No | Res101 | 44.5 |
 | Ours | yes | No | Res101 | 45.3 |
 | Ours† | yes | No | Res101 | 46.8 |
 | Ours† w/ Wms1 | yes | No | Res101 | 46.9 |
 | Ours† w/ Wms2 | yes | No | Res101 | 47.4 |
-| Autoassign | yes | No | ResXt101-64x4d| 46.5 |
+| Autoassign (baseline) | yes | No | ResXt101-64x4d| 46.5 |
 | Ours | yes | No | ResXt101-64x4d | 47.2 |
 | Ours† | yes | No | ResXt101-64x4d | 48.0 |
 | Ours† w/ Wms1 | yes | No | ResXt101-64x4d | 48.5 |
