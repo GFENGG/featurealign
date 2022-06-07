@@ -7,6 +7,7 @@ This is a PyTorch implementation version of the paper Features Alignment In Anch
 - feature ﬁlter
 - multi-layer quality distributions (MDQ) and corresponding quality weighting mechanism
 
+More details can be found in the paper.
 ## Get Started
 
 1. install [cvpods](https://github.com/Megvii-BaseDetection/cvpods) following the instructions
