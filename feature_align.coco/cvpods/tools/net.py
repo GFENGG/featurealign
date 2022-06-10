@@ -33,10 +33,10 @@ def build_shift_generator(cfg, input_shape):
 
 def build_model(cfg):
     """
-    Build AutoAssign
+    Build FeatureAlign
 
     Returns:
-        an instance of :class:`AutoAssign`
+        an instance of :class:`FeatureAlign`
     """
 
     cfg.build_backbone = build_backbone

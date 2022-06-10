@@ -63,10 +63,10 @@ _config_dict = dict(
 )
 
 
-class AutoAssignConfig(FCOSConfig):
+class FeatureAlignConfig(FCOSConfig):
     def __init__(self):
-        super(AutoAssignConfig, self).__init__()
+        super(FeatureAlignConfig, self).__init__()
         self._register_configuration(_config_dict)
 
 
-config = AutoAssignConfig()
+config = FeatureAlignConfig()
